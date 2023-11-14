@@ -108,10 +108,14 @@ font-weight: 900;
 }
 .cerchio-green{
     border: 1px solid green;
-    border-radius: 50%;}
+    border-radius: 50%;
+    color: green;
+}
+    
 .cerchio-red{
         border: 1px solid red;
         border-radius: 50%;
+        color: red;
     
 }
 .box{
