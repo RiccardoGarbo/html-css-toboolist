@@ -8,14 +8,40 @@ body{      /*general*/
     background-color: rgb(100, 237, 118);
     font-family:Arial, sans-serif ;
 }
-
-main{
-    
+  
+/*Utility*/ /*palette*/
+.blue-color{
+    background-color: rgb(88, 88, 238);}
+.violet-color{ background-color: blueviolet;
+} 
+.greenwater-color{
+   background-color: rgb(2, 141, 88);
 }
+.orange-color{
+    background-color: orangered;
+}
+.pink-color{
+    background-color: rgb(172, 54, 113);
+}
+.yellow-color{
+    background-color: yellow;
+}
+
+
+
+h4{
+display: inline;
+}
+
+
+
+    
+
 .container {
 max-width: 720px;
 margin: 0 auto;
 margin-top: 20px;
+
 
 
 
@@ -41,7 +67,8 @@ font-weight: 900;
   /*main head con bottoni*/
 .main-head{
     background-color: white;
-    border-radius: 5px;
+    border-radius: 3px;
+    margin-bottom: 1px;
 }
 #task-button{
     background-color: rgb(0, 114, 245);
@@ -60,5 +87,44 @@ font-weight: 900;
     margin:0;
     margin-left: 0px;
     border-radius: 3px;
+}  
+/*sezione lista*/
+.list-customize{
+    margin-left:20px;
+    padding-top: 20px;
+}
+.list{
+    background-color: white;
+    border-radius: 3px;
+    padding-bottom: 15px;
+}
+.list-heading{ list-style: none;
 
 }
+.list-point{
+    list-style :none;
+    
+    
+}
+.cerchio-green{
+    border: 1px solid green;
+    border-radius: 50%;}
+.cerchio-red{
+        border: 1px solid red;
+        border-radius: 50%;
+    
+}
+.box{
+    color:white;
+    border-radius: 30%;
+    padding: 5px;   
+} 
+.list-point{
+    margin-top: 20px;
+}
+.list-heading{
+    margin-top: 20px;
+}
+
+
+
