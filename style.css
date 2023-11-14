@@ -37,8 +37,8 @@ header{
 display: inline;
 vertical-align: middle;
 font-weight: 900;
-
-}
+} 
+  /*main head con bottoni*/
 .main-head{
     background-color: white;
     border-radius: 5px;
